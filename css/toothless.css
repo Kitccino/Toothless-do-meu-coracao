@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(211, 226, 230);
+    background-color: rgb(188 197 206);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
@@ -8,11 +8,12 @@ body {
 
 
 header {
-    background-color: #7799a6;
+    background-image: url(https://i.pinimg.com/originals/e3/e0/58/e3e058dd534af8dd748a496498dc7bc2.gif);
+    background-size: 1280px 720px;
+    background-repeat: no-repeat;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
-    box-shadow: 0 -3px 10px 3px  #7799a6;
 }
 
 header h1 {
@@ -44,29 +45,35 @@ main img {
 }
 
 h2 {
-    color:teal;
+    color:rgb(48, 48, 48);
     margin-bottom: -10px;
     margin-top: 10px;
 }
 
 a {
-    color: teal;
+    color: rgb(48, 48, 48);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(1, 104, 104);
+    color: rgb(107, 107, 107);
     text-decoration: underline;
 }
 
+.caption {
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
 footer {
-    background-color:rgb(1, 104, 104);
+    background-color:rgb(48, 48, 48);
     text-align: center;
     color: whitesmoke;
     padding: 50px;
-    box-shadow: 0 -3px 10px 3px rgb(1, 104, 104);
+    box-shadow: 0 -3px 10px 3px rgb(48, 48, 48);
 }
 
 .about {
-    margin-top: -10px;
+    margin-top: 10px;
 }
